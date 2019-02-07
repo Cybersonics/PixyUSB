@@ -3,10 +3,13 @@ USB code to connect Pixy version 1 camera to RoboRio
 
 The Java library is pretty straightforward to use, just drop jna.jar and libpixyusb.so from the lib/ directory in the archive into wpilib/user/java/lib/ from your root user directory. The robot code in the src/ directory is a basic example for testing the Pixy functionality.
 
+The PixyUSB directory is a cross compiled library and example program to operate multiple Pixy version 1 cameras from the roborio USB ports.
+The libpixyusb directory is the raw source code that would need to be cross compiled to work  on the roborio
+
 Update:
 The PixyTest file is a VSCode example used to operate multiple Pixy Version 1 cameras to operate through the USB connection.
 
-The instructions below are already included in the PixTest code.
+The instructions below are already included in the PixyTest code.
 
 To use Pixy USB libraries add the lib subdirectory to the your project subdirectory. 
 
